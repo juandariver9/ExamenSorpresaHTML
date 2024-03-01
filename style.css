@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    background-color: transparent;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.Pantalla1 {
+    width: 1920px;
+    height: 1080px;
+    background-color: #1e1d2b;
+    z-index: -1;
+
+}
+
+.Pantalla2 {
+    width: 1920px;
+    height: 1080px;
+    background-color: #1e1d2b;
+    z-index: -1;
+}
+
+.Pantalla3 {
+    width: 1920px;
+    height: 1080px;
+    background-color: #1e1d2b;
+    z-index: -1;
+}
+
+.Pantalla4 {
+    width: 1920px;
+    height: 1080px;
+    background-color: #1e1d2b;
+    z-index: -1;
+}
+
+.Pantalla5 {
+    width: 1920px;
+    height: 1080px;
+    background-color: #1e1d2b;
+    z-index: -1;
+}
+
+.Pantalla6 {
+    width: 1920px;
+    height: 540px;
+    background-color: #1e1d2b;
+    z-index: -1;
+}
+
+#Foods {
+    position: absolute;
+    font-size: 60px;
+    color: #ff702a;
+    top: 10px;
+    left: 70px;   
+    font-family: Poppins;
+}
+
+#Home {
+    position: absolute;
+    font-size: 30px;
+    color: #ffffff;
+    top: 30px;
+    left: 1070px;
+    font-family: Poppins;
+}
+
+#About {
+    position: absolute;
+    font-size: 30px;
+    color: #ffffff;
+    top: 30px;
+    left: 1210px;
+    font-family: Poppins;
+}
+
+#Menu {
+    position: absolute;
+    font-size: 30px;
+    color: #ffffff;
+    top: 30px;
+    left: 1360px;
+    font-family: Poppins;
+}
+
+#Service {
+    position: absolute;
+    font-size: 30px;
+    color: #ffffff;
+    top: 30px;
+    left: 1500px;
+    font-family: Poppins;
+}
+
+#Contact {
+    position: absolute;
+    font-size: 30px;
+    color: #ffffff;
+    top: 30px;
+    left: 1650px;
+    font-family: Poppins;
+    margin: 0;
+}
+
+#FullWebsite {
+    position: absolute;
+    font-size: 100px;
+    color: #ff702a;
+    width: 596px;
+    top: 400px;
+    left: 230px;
+    font-family: Poppins;
+}
+
+#FTMPT {
+    position: absolute;
+    font-size: 50px;
+    color: #ffffff;
+    width: 500px;
+    top: 520px;
+    left: 230px;
+    font-family: Poppins;
+}
+
+#Homep {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    top: 180px;
+    left: 1100px;
+    margin: 0;
+
+}
+
+#BotonP1 {
+    font-family: Poppins;
+    font-size: 30px;
+    background-color: #ff702a;
+    color: #ffffff;
+    position: absolute;
+    width: 300px;
+    height: 70px;
+    top: 720px;
+    left: 230px;
+    margin: 0;
+}
+
+/*PAGINA 2*/
+
+#AboutUs {
+    position: absolute;
+    font-size: 25px;
+    color: #ff702a;
+    top: calc(1080px + 300px);
+    left: 1110px;
+    font-family: Poppins;
+}
+
+#text1 {
+    position: absolute;
+    font-size: 50px;
+    color: #ffffff;
+    top: calc(1080px + 330px);
+    left: 1110px;
+    font-family: Poppins;
+}
+
+#text2 {
+    position: absolute;
+    font-size: 25px;
+    color: #ffffff;
+    top: calc(1080px + 480px);
+    left: 1110px;
+    font-family: Poppins;
+}
+
+#aboutP {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    top: calc(1080px + 180px);
+    left: 300px;
+    margin: 0;
+}
+
+#BotonP2 {
+    font-family: Poppins;
+    font-size: 30px;
+    background-color: #ff702a;
+    color: #ffffff;
+    position: absolute;
+    width: 300px;
+    height: 70px;
+    top: calc(1080px + 660px);
+    left: 1110px;
+    margin: 0;
+}
+
+/*PAGINA 3*/
+
+#FoodMenu {
+    position: absolute;
+    top: 212%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+    font-size: 40px; 
+    color: #ff702a;
+}
+
+
+#FTAHP {
+    position: absolute;
+    top: 220%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+    width: 1159px;
+    font-size: 90px; 
+    color: #ffffff; 
+}
+.Cuadrado1 {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    background-color: #ffffff;
+    border: 5px solid #0a0642;
+    border-radius: 10px;
+    top: calc(1080px*2 + 350px);
+    left: 200px;
+    z-index: 1; 
+}
+
+.CuadradoPequeño1 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: #ff702a;
+    top: calc(1080px*2 + 355px);
+    left: 530px;
+    z-index: 2; 
+    text-align: center;
+    font-size: 50px;
+}
+
+#food1 {
+    position: absolute;
+    top: 30%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 200px; 
+    height: 200px;
+}
+#Text1P3, #Text2P3, #Text3P3 {
+    position: absolute;
+    top: 75%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    text-align: center; 
+    width: 310px;
+    font-size: 30px; 
+    color: black; 
+}
+
+#Text1P3 {
+    top: calc(75% - 50px);
+}
+
+#Text3P3 {
+    top: calc(75% + 50px);
+    color: #ff702a;
+}
+
+
+
+.Cuadrado2 {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    background-color: #ffffff;
+    border: 5px solid #0a0642;
+    border-radius: 10px;
+    top: calc(1080px*2 + 350px);
+    left: 735px;
+}
+.CuadradoPequeño2 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: #ff702a;
+    top: calc(1080px*2 + 355px);
+    left: 1066px;
+    z-index: 2; 
+    text-align: center;
+    font-size: 50px;
+}
+
+#food2 {
+    position: absolute;
+    top: 30%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 200px; 
+    height: 200px;
+}
+
+.Cuadrado3 {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    background-color: #ffffff;
+    border: 5px solid #0a0642;
+    border-radius: 10px;
+    top: calc(1080px*2 + 350px);
+    right: 200px;
+}
+.CuadradoPequeño3 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: #ff702a;
+    top: calc(1080px*2 + 355px);
+    left: 1600px;
+    z-index: 2; 
+    text-align: center;
+    font-size: 50px;
+}
+
+#food3 {
+    position: absolute;
+    top: 30%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 200px; 
+    height: 200px;
+}
+
+/*PAGINA 4*/
+
+
+.Div1 {
+    position: absolute;
+    left: 250px; /* Posiciona el primer div en el extremo izquierdo */
+    top: calc(330% + 100px);
+    text-align: center;
+    margin: 0 10px; /* Espacio entre los divs */
+}
+
+.Div2 {
+    position: absolute;/* Posiciona el segundo div a 220px del borde izquierdo */
+    top: calc(346.5% + 100px);
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 0 10px; /* Espacio entre los divs */
+}
+
+.Div3 {
+    position: absolute;
+    right: 250px; /* Posiciona el tercer div a 440px del borde izquierdo */
+    top: calc(330% + 100px);
+    text-align: center;
+    margin: 0 10px; /* Espacio entre los divs */
+}
+
+#ServicesP4, #Order, #Shipping, #Dellvered {
+    top: 100px;
+    font-size: 30px;
+    color: #ff702a;
+    font-family: Poppins;
+}
+
+#ServicesP4 {
+    font-size: 70px;
+}
+
+.TextosP4 {
+    position: absolute;
+    top: calc(100%*3 + 200px);
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: #ffffff;
+    font-family: Poppins;
+    text-align: center;
+}
+
+#OrderT, #ShippingT, #DellveredT {
+    font-size: 24px;
+    color: #ffffff;
+    font-family: Poppins;
+}
+
+#img1, #img2, #img3 {
+    width: 200px; 
+}
+
+
+
+
+
+/*PAGINA 5*/
+
+.cuadrado {
+    position: absolute;
+    width: 1620px;
+    height: 780px;
+    background-color: #fff4f0;
+    border-radius: 50px;
+    border: #0a0642;
+    border-width: 20px;
+    top: calc(1080px*4 + 150px);
+    left: 150px;
+}
+
+#textp5 {
+    position: absolute;
+    text-align: center;
+    font-size: 80px;
+    color: #1e1d2b;
+    top: calc(1080px*4 + 360px);
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 880px;
+    font-family: Poppins;
+}
+#BotonP5 {
+    font-family: Poppins;
+    font-size: 30px;
+    background-color: #ff702a;
+    color: #ffffff;
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    top: calc(1080px*4 + 700px);
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+/*PAGINA 6*/
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+
+.column {
+    text-align: left;
+    position: relative;
+    left: 30px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.line {
+    width: 50%;
+    height: 4px;
+    border-radius: 10px;
+    background-color: #ff702a;
+    margin: 0 ;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.circle-links {
+    display: flex;
+    margin-top: 20px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: #ff702a;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.circle:hover {
+    background-color: #f46c27;
+}
+
+.footer {
+    margin: 0;
+    background-color: #f46c27; 
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    width: 100%; 
+}
